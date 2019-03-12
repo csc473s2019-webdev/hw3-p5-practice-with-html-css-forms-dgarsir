@@ -5,6 +5,14 @@ body {
 
 #form-outer {
     background-color: white;
-    margin: 50px 100px 50px 100px;
-    padding: 25px 0 25px 0;
+    margin: 50px 150px 50px 150px;
+    padding: 10px 0 10px 0;
+}
+
+#title {
+    padding: 15px 0 0 0;
+}
+
+#footer {
+    padding: 0 0 15px 0;
 }
