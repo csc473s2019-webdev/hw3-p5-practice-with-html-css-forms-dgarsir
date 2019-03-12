@@ -11,12 +11,26 @@
     <div id="form-outer">
         <p id="description">Tell me about your favorite animal!</p>
         <form id="survey-form" method="GET" action="">
+            <div class="labels">
+                <label for="name" id="name-label">*Name: </label>
+            </div>
             <input type="name" name="name" id="name" 
             class="input-field" placeholder="Enter your name" required>
+            <div class="labels">
+                <label for="email" id="email-label">*Email: </label>
+            </div>
             <input type="email" name="email" id="email" 
             class="input-field" placeholder="Enter your email" required>
+            <div class="labels">
+                <label for="age" id="age-label">*Age: </label>
+            </div>
             <input type="number" name="age" id="age"
             class="input-field" placeholder="Age" min="1" max="111" required>
+            <div class="labels">
+                <label for="color_desc" id="color_desc-labl">
+                    What color best describes your animal?
+                </label>
+            </div>
             <select id="dropdown" name="color_desc" class="dropdown">
                 <option disabled value>Select an option</option>
                 <option value="red">Red</option>
@@ -30,6 +44,9 @@
                 <option value="brown">Brown</option>
                 <option value="white">White</option>
             </select>
+            <div class="labels">
+                <label for="MRA" id="MRA-label">Please classify your animal.</label>
+            </div>
             <ul style="list-style: none;">
                 <li class="radio">
                     <label>Mammal
@@ -50,6 +67,11 @@
                     </label>
                 </li>
             </ul>
+            <div class="labels">
+                <label for="features" name="features-label">
+                    Does your animal exhibit any of these features?
+                </label>
+            </div>
             <ul id="features" style="list-style: none;">
                 <li class="checkbox">
                     <label>
@@ -104,6 +126,11 @@
                         </label>
                     </li>
             </ul>
+            <div class="labels">
+                <label for="myAnimal" name="myAnimal-label">
+                    Please enter the name of your animal!
+                </label>
+            </div>
             <textarea id="myAnimal" class="input-field" name="myAnimal" 
             placeholder="Please enter your chosen animal here.">
             </textarea>
